@@ -233,12 +233,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="BaseDeDatos\BaseDeDatos.txt" />
-    <Content Include="BaseDeDatos\Tesis.mdf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="BaseDeDatos\Tesis_log.ldf">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="Data\DataContext.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
       <DependentUpon>DataContext.edmx</DependentUpon>
